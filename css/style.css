@@ -1,0 +1,44 @@
+.addingspace {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding-top: 15px;
+}
+
+.bookrelease {
+  margin: 20px;
+}
+
+.verticalrule {
+  border-right: solid 1px lightgray;
+}
+
+@media only screen and (max-width: 800px) {
+  .responsivecolumn {
+    min-width: 100%;
+  }
+  .verticalrule {
+    min-width: 100%;
+  }
+  .bio {
+    min-width: 100%;
+  }
+}
+
+.orange {
+  color: rgb(242,171,17);
+  padding: 15px;
+}
+
+.social {
+  margin:0 auto;
+  text-align: center;
+}
+
+h3, h2 {
+  font-family: 'Ribeye Marrow', 'helvetica', sans-serif;
+  text-transform: uppercase;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif
+}
